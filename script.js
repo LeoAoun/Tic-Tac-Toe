@@ -50,40 +50,48 @@ function checkWinner() {
 
         if ((v1.innerHTML == v2.innerHTML && v2.innerHTML == v3.innerHTML) && v3.innerHTML != "") {
             insertWinner("X")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v4.innerHTML == v5.innerHTML && v5.innerHTML == v6.innerHTML) && v4.innerHTML != "") {
             insertWinner("X")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v7.innerHTML == v8.innerHTML && v8.innerHTML == v9.innerHTML) && v7.innerHTML != "") {
             insertWinner("X")
-            gameOver()
             winSound()
+            gameOver()
+            
         }
 
         else if ((v1.innerHTML == v4.innerHTML && v4.innerHTML == v7.innerHTML) && v1.innerHTML != "") {
             insertWinner("X")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v2.innerHTML == v5.innerHTML && v5.innerHTML == v8.innerHTML) && v2.innerHTML != "") {
             insertWinner("X")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v3.innerHTML == v6.innerHTML && v6.innerHTML == v9.innerHTML) && v3.innerHTML != "") {
             insertWinner("X")
-            gameOver()
             winSound()
+            gameOver()
+            
         }
 
         else if ((v1.innerHTML == v5.innerHTML && v5.innerHTML == v9.innerHTML) && v1.innerHTML != "") {
             insertWinner("X")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v3.innerHTML == v5.innerHTML && v5.innerHTML == v7.innerHTML) && v3.innerHTML != "") {
             insertWinner("X")
-            gameOver()
             winSound()
+            gameOver()
+            
         }
 
         else if (v1.innerHTML != "" &&
@@ -97,8 +105,9 @@ function checkWinner() {
         v9.innerHTML != ""){
             insertWinner("DRAW!")
             draw()
-            gameOver()
             drawSound()
+            gameOver()
+            
         }
     }
 
@@ -106,40 +115,48 @@ function checkWinner() {
 
         if ((v1.innerHTML == v2.innerHTML && v2.innerHTML == v3.innerHTML) && v1.innerHTML != "") {
             insertWinner("O")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v4.innerHTML == v5.innerHTML && v5.innerHTML == v6.innerHTML) && v4.innerHTML != "") {
             insertWinner("O")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v7.innerHTML == v8.innerHTML && v8.innerHTML == v9.innerHTML) && v7.innerHTML != "") {
             insertWinner("O")
-            gameOver()
             winSound()
+            gameOver()
+            
         }
 
         else if ((v1.innerHTML == v4.innerHTML && v4.innerHTML == v7.innerHTML) && v1.innerHTML != "") {
             insertWinner("O")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v2.innerHTML == v5.innerHTML && v5.innerHTML == v8.innerHTML) && v2.innerHTML != "") {
             insertWinner("O")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v3.innerHTML == v6.innerHTML && v6.innerHTML == v9.innerHTML) && v3.innerHTML != "") {
             insertWinner("O")
-            gameOver()
             winSound()
+            gameOver()
+            
         }
 
         else if ((v1.innerHTML == v5.innerHTML && v5.innerHTML == v9.innerHTML) && v1.innerHTML != "") {
             insertWinner("O")
-            gameOver()
             winSound()
+            gameOver()
+            
         } else if ((v3.innerHTML == v5.innerHTML && v5.innerHTML == v7.innerHTML) && v3.innerHTML != "") {
             insertWinner("O")
-            gameOver()
             winSound()
+            gameOver()
+            
         }
 
         else if (v1.innerHTML != "" &&
@@ -153,8 +170,9 @@ function checkWinner() {
         v9.innerHTML != ""){
             insertWinner("DRAW!")
             draw()
-            gameOver()
             drawSound()
+            gameOver()
+            
         }
     }
 }
