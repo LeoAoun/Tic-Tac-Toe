@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="container">
+        <h1 id="title">Tic-Tac-Toe</h1>
+        <div class="line">
+            <div class="square" id="s1"><div id="v1" class="val"></div></div>
+            <div class="square" id="s2"><div id="v2" class="val"></div></div>
+            <div class="square" id="s3"><div id="v3" class="val"></div></div>
+        </div><!--
+        --><div class="line">
+            <div class="square" id="s4"><div id="v4" class="val"></div></div>
+            <div class="square" id="s5"><div id="v5" class="val"></div></div>
+            <div class="square" id="s6"><div id="v6" class="val"></div></div>
+        </div><!--
+        --><div class="line">
+            <div class="square" id="s7"><div id="v7" class="val"></div></div>
+            <div class="square" id="s8"><div id="v8" class="val"></div></div>
+            <div class="square" id="s9"><div id="v9" class="val"></div></div>
+        </div>
+
+        <div class="risco" id="a"></div>
+    </div>
+
+    <div id="gameover">
+        <h1 class="tgameover" id="tplayer">PLAYER</h1>
+        <h1 class="tgameover" id="winner"></h1>
+        <h1 class="tgameover" id="twin">WIN!</h1>
+        <button>Play Again (Jogar Novamente)</button>
+    </div>
+
+    <audio id="gameover">
+        
+
+    </audio>
+
+    <audio id="click">
+        <source src="Audios/bloop.mp3" type="audio/mp3">
+    </audio>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

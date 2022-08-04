@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+}
+
+#title {
+    font-family: 'Righteous', cursive;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(253, 83, 83);
+    text-shadow: rgb(0, 0, 0) 1px 0px 1px;
+}
+
+#container {
+
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%, -50%);
+    min-width: 40vw;
+}
+
+.line {
+    display: inline-block;
+}
+
+.square {
+    height: 13vw;
+    width: 13vw;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+}
+
+#s1,
+#s2,
+#s3,
+#s4,
+#s5,
+#s6 {
+    border-right: black 0.5vw solid;
+}
+
+#s1,
+#s2,
+#s4,
+#s5,
+#s7,
+#s8 {
+    border-bottom: black 0.5vw solid;
+}
+
+.val {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-shadow: black 1px 1px 5px;
+}
+
+.square:hover {
+    background-color: rgba(0, 167, 167, 0.418);
+    cursor: pointer;
+}
+
+#gameover {
+    background-color: rgba(0, 0, 0, 0.90);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    margin-top: 90px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 0);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+button:hover{
+    background-color: rgb(182, 182, 5);
+    cursor: pointer;
+}
+
+.tgameover {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+#winner {
+    color: rgb(0, 225, 255);
+}
