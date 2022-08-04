@@ -51,12 +51,21 @@ function checkWinner() {
         if ((v1.innerHTML == v2.innerHTML && v2.innerHTML == v3.innerHTML) && v3.innerHTML != "") {
             insertWinner("X")
             gameOver()
+            audio = document.getElementById("winAudio")
+            audio.volume = 0.7
+            audio.play()
         } else if ((v4.innerHTML == v5.innerHTML && v5.innerHTML == v6.innerHTML) && v4.innerHTML != "") {
             insertWinner("X")
             gameOver()
+            audio = document.getElementById("winAudio")
+            audio.volume = 0.7
+            audio.play()
         } else if ((v7.innerHTML == v8.innerHTML && v8.innerHTML == v9.innerHTML) && v7.innerHTML != "") {
             insertWinner("X")
             gameOver()
+            audio = document.getElementById("winAudio")
+            audio.volume = 0.7
+            audio.play()
         }
 
         else if ((v1.innerHTML == v4.innerHTML && v4.innerHTML == v7.innerHTML) && v1.innerHTML != "") {
@@ -90,6 +99,9 @@ function checkWinner() {
             insertWinner("DRAW!")
             draw()
             gameOver()
+            audio = document.getElementById("drawAudio")
+            audio.volume = 0.7
+            audio.play()
         }
     }
 
@@ -137,6 +149,9 @@ function checkWinner() {
             insertWinner("DRAW!")
             draw()
             gameOver()
+            audio = document.getElementById("drawAudio")
+            audio.volume = 0.7
+            audio.play()
         }
     }
 }
@@ -232,3 +247,4 @@ function soundClick(){
     audio.volume = 0.7
     audio.play()
 }
+
