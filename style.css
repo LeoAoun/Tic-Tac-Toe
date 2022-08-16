@@ -22,8 +22,8 @@ body {
     margin-bottom: 50px;
     text-align: center;
     font-size: 4vw;
-    color: rgb(253, 83, 83);
-    text-shadow: rgb(0, 0, 0) 1px 0px 1px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 1px 3px;
 }
 
 #container {
